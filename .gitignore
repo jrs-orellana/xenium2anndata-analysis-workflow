@@ -1,5 +1,10 @@
 data/*
 !data/README.md
+
+# But keep this main one
+!notebooks/preview_quickstart.ipynb
+
+# Ignore Jupyter hidden files and checkpoints
 .jupyter/
-*.ipynb
-.jupyter/
+.ipynb_checkpoints/
+
