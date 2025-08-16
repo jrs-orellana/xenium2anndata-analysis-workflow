@@ -1,10 +1,18 @@
+# ================================
+# Data
+# ================================
+# Ignore all unpacked/raw data
 data/*
+# Keep the README file to explain structure
 !data/README.md
 
-# But keep this main one
-!notebooks/preview_quickstart.ipynb
-
-# Ignore Jupyter hidden files and checkpoints
+# ================================
+# Jupyter internals
+# ================================
+# Ignore Jupyter hidden config and workspace files
 .jupyter/
-.ipynb_checkpoints/
+notebooks/.jupyter/
 
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
