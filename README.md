@@ -56,7 +56,7 @@ Dataset: Xenium Human Lung Preview, 10x Genomics (CC BY 4.0) — cite per 10x Ge
 ---
 
 **Repo Summary:**  
-- Name: `xenium-raw-data-analysis-workflow` (clear, descriptive, follows naming best practices)  
+- Name: `xenium2anndata-analysis-workflow` (clear, descriptive, follows naming best practices)  
 - Purpose: Detailed, manual parsing and processing of Xenium raw data  
 - Strengths: Transparency, flexibility, reproducibility over convenience.
 
