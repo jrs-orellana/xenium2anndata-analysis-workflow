@@ -22,3 +22,9 @@ notebooks/.ipynb_checkpoints/
 # ================================
 results/adata_raw.h5ad
 results/qc_metrics.csv
+
+# ================================
+# Preview analysis
+# ================================
+scripts/unpack_all.py
+preview_quickstart.ipynb
