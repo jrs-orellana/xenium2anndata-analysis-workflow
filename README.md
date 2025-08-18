@@ -92,19 +92,28 @@ pip install -r requirements.txt
 | ![](results/figures/01_qc_hist_total_counts.png) | ![](results/figures/02_qc_hist_genes_per_cell.png) | ![](results/figures/03_qc_scatter_counts_vs_genes.png) |
 
 ### Spatial Density & Dimensionality Reduction
-| Post-QC Density | PCA Scree | UMAP Leiden |
-|-----------------|-----------|-------------|
+| Post-QC Density | PCA Scree | UMAP (Leiden) |
+|-----------------|-----------|---------------|
 | ![](results/figures/04_spatial_density_post_qc.png) | ![](results/figures/05_pca_scree.png) | ![](results/figures/06_umap_leiden.png) |
 
-### Gene Counts & Leiden Clusters
-| n Genes by Cell | Total Counts | Leiden Clusters | Sub-clusters |
-|-----------------|--------------|-----------------|--------------|
-| ![](results/figures/07_umap_n_genes_by_counts.png) | ![](results/figures/07_umap_total_counts.png) | ![](results/figures/08_spatial_leiden.png) | ![](results/figures/08a_spatial_clusters_0_3.png) |
+### Gene Count Gradients & Global Clustering
+| UMAP: n Genes by Cell | UMAP: Total Counts | Spatial Leiden |
+|-----------------------|--------------------|----------------|
+| ![](results/figures/07_umap_n_genes_by_counts.png) | ![](results/figures/07_umap_total_counts.png) | ![](results/figures/08_spatial_leiden.png) |
 
-### Additional Selected Results
-| Cluster 4–7 | Cluster 8 | Cell Type Scores | Marker Dotplot |
-|-------------|-----------|------------------|----------------|
-| ![](results/figures/08b_spatial_clusters_4_7.png) | ![](results/figures/08c_spatial_cluster_8.png) | ![](results/figures/09_spatial_celltype_scores.png) | ![](results/figures/11_markers_dotplot.png) |
+### Cell-Type Inference & Compartments
+| Cell-Type Scores | Compartments (High) | Compartments (Grid) |
+|------------------|---------------------|---------------------|
+| ![](results/figures/09_spatial_celltype_scores.png) | ![](results/figures/10_spatial_compartments_high.png) | ![](results/figures/10_spatial_compartments_high_grid.png) |
+
+### Markers, Enrichment & Sizes
+| Marker Dotplot | Marker Heatmap | Neighborhood Enrichment |
+|----------------|----------------|--------------------------|
+| ![](results/figures/11_markers_dotplot.png) | ![](results/figures/12_markers_heatmap.png) | ![](results/figures/13_nhood_enrichment.png) |
+
+| Cluster Size Distribution | Top Markers (per cluster) |
+|---------------------------|---------------------------|
+| ![](results/figures/14_cluster_sizes.png) | ![](results/figures/15_top_marker_dotplot.png) |
 
 ---
 
@@ -157,6 +166,6 @@ Dataset belongs to **10x Genomics** and is licensed under **CC BY 4.0**.
 ---
 
 ## Contact  
-Maintainer: **Julio Orellana-Montes**  
+Author: **Julio Orellana-Montes**  
 For questions, suggestions, or collaborations: open an issue or pull request on GitHub,  
 or contact me at **julio.orellana@upch.pe**  
