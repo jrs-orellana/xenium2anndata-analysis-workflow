@@ -1,4 +1,4 @@
-# Xenium Raw Data Analysis Workflow
+# xenium2anndata-analysis-workflow
 
 **Dataset:** *Xenium Human Lung Preview — Non-diseased FFPE*  
 **Source & Download:** [10x Genomics — Xenium Human Lung Preview (standard)](https://www.10xgenomics.com/datasets/xenium-human-lung-preview-data-1-standard)  
@@ -7,7 +7,7 @@ Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 ---
 
 ## Overview  
-This repository, named **Xenium Raw Data Analysis Workflow**, implements a transparent and flexible pipeline for processing Xenium spatial transcriptomics data from raw output to spatial visualization. Unlike workflows that depend on Zarr or aggregated formats, this approach uses step-by-step raw data processing for reproducibility and educational clarity.
+This repository, implements a transparent and flexible pipeline for processing Xenium spatial transcriptomics data from raw output to spatial visualization. Unlike workflows that depend on Zarr or aggregated formats, this approach uses step-by-step raw data processing for reproducibility and educational clarity.
 
 ---
 
@@ -41,7 +41,7 @@ This repository, named **Xenium Raw Data Analysis Workflow**, implements a trans
 
 ## Getting Started
 
-1. Clone this repository (`git clone https://github.com/jrs-orellana/xenium-raw-data-analysis-workflow`).  
+1. Clone this repository (`git clone https://github.com/jrs-orellana/xenium2anndata-analysis-workflow`).  
 2. Download the Xenium dataset ZIP from the link above and place it in `data/`.  
 3. Run `python scripts/unpack_all.py` to extract the dataset.  
 4. Install dependencies (`scanpy`, `squidpy`, `spatialdata-io`, `pyarrow`, etc.).  
@@ -60,6 +60,5 @@ Dataset: Xenium Human Lung Preview, 10x Genomics (CC BY 4.0) — cite per 10x Ge
 - Purpose: Detailed, manual parsing and processing of Xenium raw data  
 - Strengths: Transparency, flexibility, reproducibility over convenience.
 
-Let me know if you’d like help renaming the GitHub repo or updating the header to reflect it in your notebooks/documentation!
-::contentReference[oaicite:14]{index=14}
+
 
