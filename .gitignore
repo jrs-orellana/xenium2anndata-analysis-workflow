@@ -16,3 +16,9 @@ notebooks/.jupyter/
 # Ignore Jupyter notebook checkpoints
 .ipynb_checkpoints/
 notebooks/.ipynb_checkpoints/
+
+# ================================
+# Results
+# ================================
+results/adata_raw.h5ad
+results/qc_metrics.csv
