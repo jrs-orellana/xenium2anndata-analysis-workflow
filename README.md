@@ -1,7 +1,8 @@
 # Xenium Raw Data Analysis Workflow
 
 **Dataset:** *Xenium Human Lung Preview — Non-diseased FFPE*  
-**Source & Download:** [10x Genomics — Xenium Human Lung Preview (standard)](https://www.10xgenomics.com/datasets/xenium-human-lung-preview-data-1-standard) — Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+**Source & Download:** [10x Genomics — Xenium Human Lung Preview (standard)](https://www.10xgenomics.com/datasets/xenium-human-lung-preview-data-1-standard)  
+Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ---
 
@@ -17,15 +18,11 @@ This repository, named **Xenium Raw Data Analysis Workflow**, implements a trans
 
 2. **Robustness to changes**  
    Xenium data format may change over time; this pipeline handles schema differences gracefully (e.g. variations in column names like `x_location` vs `x_centroid`).  
-   :contentReference[oaicite:13]{index=13}
 
 3. **Scalability & memory efficiency**  
    The two-pass Arrow/Parquet batching avoids memory issues, allowing for large datasets to be handled smoothly.
 
-4. **Educational clarity**  
-   Every transformation—loading raw data, QC, spatial embedding, clustering, and neighborhood analysis—is transparent and easy to follow.
-
-5. **Customizable & extensible**  
+4. **Customizable & extensible**  
    Users can easily adjust quality thresholds or extend the pipeline to other spatial platforms (e.g., CosMx, MERFISH).
 
 ---
@@ -33,7 +30,7 @@ This repository, named **Xenium Raw Data Analysis Workflow**, implements a trans
 ## Repository Contents
 
 - **scripts/unpack_all.py** — Extracts Xenium data from zipped output bundles.  
-- **notebooks/03_preview_quickstart.ipynb** — Walk-through notebook to:
+- **notebooks/preview_quickstart.ipynb** — Walk-through notebook to:
   - Load raw `cells.parquet` and `transcripts.parquet`, plus image and metrics files  
   - Filter and build a sparse count matrix  
   - Construct and QC an `AnnData` object  
@@ -44,7 +41,7 @@ This repository, named **Xenium Raw Data Analysis Workflow**, implements a trans
 
 ## Getting Started
 
-1. Clone this repository (e.g., `git clone https://github.com/you/xenium-raw-data-analysis-workflow.git`).  
+1. Clone this repository (`git clone https://github.com/jrs-orellana/xenium-raw-data-analysis-workflow`).  
 2. Download the Xenium dataset ZIP from the link above and place it in `data/`.  
 3. Run `python scripts/unpack_all.py` to extract the dataset.  
 4. Install dependencies (`scanpy`, `squidpy`, `spatialdata-io`, `pyarrow`, etc.).  
