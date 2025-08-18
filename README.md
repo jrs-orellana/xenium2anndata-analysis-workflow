@@ -102,9 +102,9 @@ pip install -r requirements.txt
 | ![](results/figures/07_umap_n_genes_by_counts.png) | ![](results/figures/07_umap_total_counts.png) | ![](results/figures/08_spatial_leiden.png) |
 
 ### Cell-Type Inference & Compartments
-| Cell-Type Scores | Compartments (High) | Compartments (Grid) |
-|------------------|---------------------|---------------------|
-| ![](results/figures/09_spatial_celltype_scores.png) | ![](results/figures/10_spatial_compartments_high.png) | ![](results/figures/10_spatial_compartments_high_grid.png) |
+| Cell-Type Scores | Compartments (High)|
+|------------------|---------------------|
+| ![](results/figures/09_spatial_celltype_scores.png) | ![](results/figures/10_spatial_compartments_high.png) | 
 
 ### Markers, Enrichment & Sizes
 | Marker Dotplot | Marker Heatmap | Neighborhood Enrichment |
