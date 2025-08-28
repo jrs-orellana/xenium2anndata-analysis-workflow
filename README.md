@@ -111,10 +111,6 @@ pip install -r requirements.txt
 |----------------|----------------|--------------------------|
 | ![](results/figures/11_markers_dotplot.png) | ![](results/figures/12_markers_heatmap.png) | ![](results/figures/13_nhood_enrichment.png) |
 
-| Cluster Size Distribution | Top Markers (per cluster) |
-|---------------------------|---------------------------|
-| ![](results/figures/14_cluster_sizes.png) | ![](results/figures/15_top_marker_dotplot.png) |
-
 ---
 
 ## Citation  
