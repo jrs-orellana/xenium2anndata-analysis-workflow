@@ -145,15 +145,6 @@ Please cite per [10x Genomics citation guidelines](https://www.10xgenomics.com/r
 
 ---
 
-## Roadmap 🚀  
-Planned extensions for this repository include:  
-- Integration with additional spatial transcriptomics platforms (e.g., **CosMx**, **MERFISH**).  
-- Adding batch correction and cross-sample integration modules.  
-- Enhanced visualization (interactive dashboards with **napari** or **Bokeh**).  
-- Tutorials for exporting processed data to standard formats (e.g., `.loom`, `.h5ad` sharing).  
-
----
-
 ## License  
 This project is released under the **MIT License**. See [LICENSE](LICENSE) for details.  
 
