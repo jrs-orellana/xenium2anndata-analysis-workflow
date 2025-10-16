@@ -6,7 +6,7 @@ Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ---
 
-## 📖 Glossary
+## Glossary
 - [Overview](#overview)
 - [Why this detailed pipeline matters](#why-this-detailed-pipeline-matters)
 - [Repository Contents](#repository-contents)
